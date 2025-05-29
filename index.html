@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picly ($SNAP) — Cute & Flashy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Homepage Section -->
+    <section id="hero" class="hero-section">
+        <div class="sparkles-container"></div>
+        <div class="hero-content">
+            <div class="logo-container animate__animated animate__bounceIn">
+                <img src="logo.jpg" alt="Picly Logo" class="logo">
+                <h1 class="animate__animated animate__pulse animate__infinite">$SNAP</h1>
+            </div>
+            <div class="hero-image">
+                <img src="banner.png" alt="Frog holding camera" class="banner-img">
+            </div>
+            <div class="hero-text animate__animated animate__fadeInUp">
+                <h2 class="glow-text">Snap That Rug! | picly ($SNAP)</h2>
+                <p class="launch-text">LAUNCHING ON PUMP.FUN — XX MAY</p>
+                <a href="https://t.me/piclysnap" class="btn-telegram">JOIN TELEGRAM</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Story Reel Section -->
+    <section id="stories" class="stories-section">
+        <h2 class="section-title glow-text">Frog Tales</h2>
+        <div class="story-reel">
+            <div class="story-panel">
+                <div class="story-image">
+                    <img src="1.png" alt="Frogs catching rugs">
+                </div>
+                <div class="story-text">
+                    <h3>The Great Rug Catch</h3>
+                    <p>Once upon a time in the crypto pond, five brave frogs armed with magical $SNAP cameras went hunting for the most elusive prey - rugs! These weren't ordinary rugs, but the kind that disappeared with your coins. "I see one!" croaked Freddy Frog, aiming his camera at a suspicious new token. SNAP! The flash froze the rug mid-pull. The evidence was captured forever, saving countless tadpoles from losing their hard-earned flies.</p>
+                    <div class="reaction-buttons">
+                        <button class="emoji-btn">😍</button>
+                        <button class="emoji-btn">😂</button>
+                        <button class="emoji-btn">😱</button>
+                        <button class="emoji-btn">📸</button>
+                    </div>
+                </div>
+            </div>
+            <div class="story-panel">
+                <div class="story-image">
+                    <img src="2.png" alt="Sad clown traders">
+                </div>
+                <div class="story-text">
+                    <h3>The Clown's Lesson</h3>
+                    <p>Poor Mr. Honkington was always too quick to ape into new tokens. His portfolio looked like a circus - full of tricks and disappointments. One day, as he hovered over the buy button for $TOTALLYSAFE, a friendly frog appeared. "Wait!" said the frog, raising his $SNAP camera. "Let me check this first." The camera revealed the token's code was a complete scam. Mr. Honkington's red nose honked in relief. From that day on, he never bought without a $SNAP check first.</p>
+                    <div class="reaction-buttons">
+                        <button class="emoji-btn">😍</button>
+                        <button class="emoji-btn">😂</button>
+                        <button class="emoji-btn">😱</button>
+                        <button class="emoji-btn">📸</button>
+                    </div>
+                </div>
+            </div>
+            <div class="story-panel">
+                <div class="story-image">
+                    <img src="3.png" alt="Moral tale">
+                </div>
+                <div class="story-text">
+                    <h3>Snap Before You Buy!</h3>
+                    <p>The little froglet had been saving flies for months. "100,000x guaranteed!" croaked the suspicious toad selling $MOONPOND tokens. Just as the froglet was about to swap, Mama Frog hopped in with her trusty $SNAP camera. "Always snap before you buy!" she reminded. The camera's flash revealed the contract had a hidden mint function. The toad tried to hop away, but his rug-pulling scheme was already captured in 4K. The evidence was shared across the pond, saving countless amphibians from certain financial doom.</p>
+                    <div class="reaction-buttons">
+                        <button class="emoji-btn">😍</button>
+                        <button class="emoji-btn">😂</button>
+                        <button class="emoji-btn">😱</button>
+                        <button class="emoji-btn">📸</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <h2 class="section-title glow-text">Gallery of Snapshots</h2>
+        <div class="polaroid-container">
+            <div class="polaroid" data-meme="When you buy the top and try to convince yourself it's just a dip">
+                <img src="4.png" alt="Meme snapshot">
+                <div class="polaroid-caption">Caught in 4K</div>
+            </div>
+            <div class="polaroid" data-meme="Dev: 'We're building utility' | Also dev: *disappears with liquidity*">
+                <img src="1.png" alt="Meme snapshot">
+                <div class="polaroid-caption">Ribbit and Run</div>
+            </div>
+            <div class="polaroid" data-meme="POV: You're watching your investment go -99% while the dev posts 'WAGMI'">
+                <img src="2.png" alt="Meme snapshot">
+                <div class="polaroid-caption">Hopium Overdose</div>
+            </div>
+        </div>
+        <div class="meme-context"></div>
+    </section>
+
+    <!-- Interactive Tools Section -->
+    <section id="tools" class="tools-section">
+        <h2 class="section-title glow-text">Interactive Tools</h2>
+        <div class="tools-container">
+            <div class="tool-card">
+                <h3>Rug Alert!</h3>
+                <p>Click to analyze a random new coin</p>
+                <button id="rug-alert-btn" class="tool-btn">Analyze Now</button>
+                <div id="rug-result" class="hidden">
+                    <div class="coin-info"></div>
+                    <div class="snap-rating"></div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <h3>$SNAP Meter</h3>
+                <p>Rugs caught today:</p>
+                <div id="snap-counter" class="counter">0</div>
+            </div>
+            <div class="tool-card">
+                <h3>AI Auto-Meme Generator</h3>
+                <p>Share your rug story:</p>
+                <textarea id="meme-input" placeholder="Type your rug story here..."></textarea>
+                <button id="generate-meme-btn" class="tool-btn">Generate Meme</button>
+                <div id="meme-result" class="hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coin Info Section -->
+    <section id="tokenomics" class="tokenomics-section">
+        <h2 class="section-title glow-text">$SNAP Tokenomics</h2>
+        <div class="tokenomics-container">
+            <div class="tokenomics-info">
+                <ul class="typing-text">
+                    <li>Total Supply: <span class="highlight">1,000,000,000 $SNAP</span></li>
+                    <li>Initial Liquidity: <span class="highlight">80%</span></li>
+                    <li>Team Allocation: <span class="highlight">10%</span></li>
+                    <li>Marketing: <span class="highlight">5%</span></li>
+                    <li>Community Rewards: <span class="highlight">5%</span></li>
+                </ul>
+            </div>
+            <div class="nft-info">
+                <h3>NFT Airdrop Mechanic</h3>
+                <p>Submit your funniest $SNAP moment to win exclusive NFTs!</p>
+                <button class="tool-btn">Learn More</button>
+            </div>
+            <div class="roadmap">
+                <h3>Interactive Roadmap</h3>
+                <div class="film-reel">
+                    <div class="film-frame">
+                        <h4>Phase 1</h4>
+                        <p>Launch on Pump.fun and Telegram community building</p>
+                    </div>
+                    <div class="film-frame">
+                        <h4>Phase 2</h4>
+                        <p>$SNAP tools development and meme contests</p>
+                    </div>
+                    <div class="film-frame">
+                        <h4>Phase 3</h4>
+                        <p>NFT collection launch and community DAO</p>
+                    </div>
+                    <div class="film-frame">
+                        <h4>Phase 4</h4>
+                        <p>Mobile app for instant rug detection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="sparkles-container"></div>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.jpg" alt="Picly Logo" class="logo">
+                <h2>$SNAP</h2>
+            </div>
+            <div class="footer-links">
+                <a href="https://t.me/piclysnap" class="footer-link">Telegram</a>
+                <a href="https://pump.fun/token/piclysnap" class="footer-link">Pump.fun</a>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2023 Picly ($SNAP). All rights reserved.</p>
+            </div>
+        </div>
+        <div class="bouncing-frogs">
+            <div class="frog"></div>
+            <div class="frog"></div>
+            <div class="frog"></div>
+        </div>
+    </footer>
+
+    <div id="clown-nose" class="hidden"></div>
+    <div id="warning-popup" class="hidden">Slow down or you'll snap your wallet!</div>
+    <div id="frog-trivia" class="hidden">Did you know: 78% of rugs are unphotogenic?</div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

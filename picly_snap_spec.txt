@@ -1,0 +1,64 @@
+Title: Picly ($SNAP) — Cute & Flashy Website Specification
+
+Theme & Tone:
+A vibrant, cheerful, photogenic universe celebrating memes, market moments, and froggy snapshots.
+Visual style must follow the inspiration images: lots of color, smooth glow, soft outlines, emoji reactions, anime sparkles.
+Absolutely rich in animations and playful effects.
+
+Main Structure:
+1. **Homepage**
+   - Fullscreen banner with animated logo ($SNAP) and hero image of the frog holding a camera.
+   - Text overlay: “Snap That Rug! | picly ($SNAP)”
+   - Cute motion text effects (bounce, light trails).
+   - Button: “JOIN TELEGRAM” — glowing, bouncy hover state.
+   - Subtext: “LAUNCHING ON PUMP.FUN — XX MAY”
+   - Animated stars/sparkles falling on scroll.
+
+2. **Animated Story Reel (new section idea!)**
+   - Horizontally scrollable comic strip of 5+ story panels.
+   - Each panel: short story (130+ words) in a meme-frog universe.
+   - All stories must have animated illustrations, buttons to react (😍😂😱📸).
+   - Example story themes:
+     - Frogs catching rugs with cameras.
+     - Sad clown traders being caught mid-buy.
+     - “Snap before you buy!” moral tale.
+
+3. **Gallery of Snapshots**
+   - Image carousel + Polaroid drop effect.
+   - Clicking a photo reveals meme context.
+   - Hover effects: lens distortion, color filters.
+
+4. **Interactive Tools**
+   - “Rug Alert!” — When clicked, displays a random fake coin and gives it a "Snap Rating".
+   - “$SNAP Meter” — Live animation of how many rugs got caught today (number counting effect).
+   - AI Auto-Meme Generator (mockup): type in a rug story, see a fake meme get rendered.
+
+5. **Coin Info Section**
+   - Tokenomics (appears letter by letter as you scroll).
+   - NFT airdrop mechanic for the funniest $SNAP moment (voting system).
+   - Interactive roadmap: camera film reel style timeline.
+
+6. **Footer**
+   - Sparkle background.
+   - Links: Telegram (no Twitter), Pump.fun page.
+   - Tiny bouncing frogs or clowns for fun.
+
+Animations:
+- Sparkle trails, photo flash effects on scroll, parallax backgrounds, camera shutter effects, randomized emoji rain (😂📸📉).
+- Ghost-frog pop-ups.
+- Pop-up windows styled like old photo editors.
+
+AI Gags / Easter Eggs:
+- If a user stays idle, a floating hand places a clown nose on the screen.
+- When scrolling too fast, a warning pops: “Slow down or you’ll snap your wallet.”
+- Random frog trivia bubble pops: “Did you know: 78% of rugs are unphotogenic?”
+
+Fonts / Colors:
+- Neon pinks, baby blues, mint greens.
+- Round, comic-inspired fonts.
+- Drop shadows, soft glows, smooth curves everywhere.
+
+Performance:
+- Mobile-optimized.
+- All images full and uncropped.
+- Fast transitions and minimal initial load.
